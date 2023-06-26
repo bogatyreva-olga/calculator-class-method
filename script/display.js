@@ -3,4 +3,8 @@ class Display {
     constructor() {
         this.#display = document.querySelector(".calc-display")
     }
+    clearDisplay() {
+        this.#display.textContent = '';
+    }
+
 }
